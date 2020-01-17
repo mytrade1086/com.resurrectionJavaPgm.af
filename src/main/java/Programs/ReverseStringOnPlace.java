@@ -8,12 +8,8 @@ public class ReverseStringOnPlace {
         String[] arr = text.split(" ");
         StringBuffer sb = new StringBuffer();
         
-        StringBuffer sb2 = new StringBuffer(); //error
-        sb2=null;
-        
-        System.out.println(sb2);
-
-		for (String str : arr) {
+    
+        for (String str : arr) {
 			System.out.println(str);
 			sb = sb.append(new StringBuffer(str).reverse().append(" "));
 		}
