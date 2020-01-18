@@ -10,8 +10,7 @@ public class MultiThreadingImplementingRunnable implements Runnable {
 	}
 
 	public static void main(String[] args) {
-		
-		 System.out.println(Thread.currentThread().getName());  
+		System.out.println(Thread.currentThread().getName());  
 		MultiThreadingImplementingRunnable mt = new MultiThreadingImplementingRunnable();
 		Thread t1 = new Thread(mt);
 		MultiThreadingImplementingRunnable2 mt1 = new MultiThreadingImplementingRunnable2();
@@ -22,7 +21,6 @@ public class MultiThreadingImplementingRunnable implements Runnable {
 		// t1.start(); //java.lang.IllegalThreadStateException if we start twice
 		t2.start();
 		System.out.println(t2.getName());
-		
 	}
 
 }
