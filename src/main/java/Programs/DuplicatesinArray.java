@@ -28,7 +28,7 @@ public class DuplicatesinArray {
 //Iterating Map
 		
        Set<Entry<String,Integer>>	es=	m.entrySet();
-       
+    
        for(Entry<String,Integer>  esset: es) {
     	   System.out.println(esset.getKey()+" :: "+esset.getValue());
     	   

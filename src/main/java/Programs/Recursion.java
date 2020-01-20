@@ -17,14 +17,11 @@ public class Recursion {
 		}
 	}
 	
-	
-	
 	public static void WithoutLoop(int num) {
 		if (num >= 1) {
 			System.out.print(num+" ");
 			WithoutLoop(num-1);
-		}
-		
+		}	
 		//5 4 3 2 1 
 		
 	}
