@@ -6,8 +6,7 @@ public class NullConcept {
 
 		// 1 //Null can be assigned to Wrapper classes.
 		// Ex. Integer class can have null as a value.
-		// However primitive class cant hold null value
-
+		// However primitive numeric  can't hold null value. 
 		Integer i = null;
 		// int i= null; // Not Allowed System.out.println(name.concat("test"));
 
@@ -25,6 +24,7 @@ public class NullConcept {
        NullConcept nc2=new NullConcept();
        nc2=null;
        System.out.println(nc2 instanceof NullConcept); // false
+       
        
        
        
@@ -52,6 +52,6 @@ public class NullConcept {
 public  void nonstaticMethod() {
 		
 	System.out.println("non static Method");
-		
+	
 	}
 }

@@ -14,6 +14,7 @@ public class DuplicatesinArrayList {
 		
 		ar.add("sumit");
 		ar.add("neha");
+		
 		ar.add("neha");
 		ar.add(("love"));
 		
@@ -23,6 +24,7 @@ public class DuplicatesinArrayList {
 		for(String ars:ar) {
 			
 			str.add(ars); 
+			System.out.println(str.add(ars));
 			
 		}
 		

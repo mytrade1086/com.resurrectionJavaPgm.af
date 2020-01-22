@@ -11,7 +11,6 @@ public class ChromeDriver extends RemoteWebDriver {
 		 sc.findElement();   //Only two methods visible if we use Super Interface Reference
 		 sc.findElements();
 		 
-		 
 		 WebDriver wd=new ChromeDriver();
 		 
 		
