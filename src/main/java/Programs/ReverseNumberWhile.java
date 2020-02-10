@@ -1,5 +1,6 @@
 package Programs;
 
+import java.nio.ShortBuffer;
 import java.util.Scanner;
 class ReverseNumberWhile
 {
@@ -20,5 +21,22 @@ class ReverseNumberWhile
           num = num/10;
       }
       System.out.println("Reverse of input number is: "+reversenum);
+      
+      
+      
+      
+      //Method 2 Stringbuffer reverse
+      int num2=3456;
+      
+      StringBuffer sb=new StringBuffer(String.valueOf(num2));
+      System.out.println("reverse of "+num2 +"is :"+sb.reverse());
+      
+      
+      
+      //Method 2 Stringbuffer reverse
+      int num3=1300;
+   
+      StringBuilder sbld=new StringBuilder(String.valueOf(num3));
+      System.out.println("reverse of "+num3 +"is :"+sbld.reverse());
    }
 }

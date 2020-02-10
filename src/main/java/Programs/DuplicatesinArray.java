@@ -1,6 +1,7 @@
 package Programs;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -39,6 +40,30 @@ public class DuplicatesinArray {
 //    	   android :: 1
     	   
        }
+       
+       
+       
+       
+    //using Set
+       
+       Set<String> s=new HashSet<String>();
+       
+       for(String str:lang) {
+    	  
+    	   if(!(s.add(str))) {
+    		   
+    		 System.out.println("Duplicates are:"+str);  
+    	   }
+    	   
+       }
+//       
+//       Duplicates are:java
+//       Duplicates are:c
+       
+       
+       
+       
+       
        
        
       

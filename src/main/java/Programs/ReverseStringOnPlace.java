@@ -16,6 +16,31 @@ public class ReverseStringOnPlace {
 
 		System.out.println(sb.toString().trim());
 
+	
+	
+	
+	
+	//# Method 2 Split and revrse loop
+	
+	String text2 = "i love you baby";
+	
+	String []arrText=text2.split(" ");
+    String reverse="";
+	
+	for(String s:arrText) {
+		
+		  for(int r=s.length()-1;r>=0;r--) {
+			  
+			reverse= reverse+s.charAt(r);
+			  
+		  }
+		  reverse=reverse+" ";
+		
 	}
+	System.out.println("Original:"+text2);
+	System.out.println("reverse:"+reverse); //i evol uoy ybab 
+	
+	
 
+}
 }
