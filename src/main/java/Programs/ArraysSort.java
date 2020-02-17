@@ -9,6 +9,8 @@ public class ArraysSort {
 		
 		int [] arr= {4,5,6,3,5};
 		
+		System.out.println(arr.length);
+		
 		Arrays.sort(arr);
 		
 		
