@@ -4,8 +4,8 @@ public class StringArraysorting {
 
 	public static void main(String[] args) {
 
-
-		   String[] names = {"Zamit", "sumit", "posco"};
+//##################### be careful with uppercase n lowercase
+		   String[] names = {"zamit", "sumit", "das"};
 		    int c = names.length;
 		    for (int i = 0; i < c-1 ; i++) 
 		    {
