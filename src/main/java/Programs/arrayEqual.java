@@ -40,7 +40,13 @@ public class arrayEqual {
 				
 				else{
 					
-					System.out.print("Items  equal "+a[i][j] +" equals "+b[i][j]+" ");
+					System.out.print(a[i][j] +" equals "+b[i][j]+" ");
+					
+					
+					
+//					1 equals 1 2 equals 2 
+//					3 equals 3 4 equals 4 5 equals 5 
+//					6 equals 6 7 equals 7 8 equals 8 9 equals 9 
 					
 				}
 				
