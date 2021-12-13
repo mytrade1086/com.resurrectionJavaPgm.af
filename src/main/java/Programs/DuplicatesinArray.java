@@ -62,6 +62,21 @@ public class DuplicatesinArray {
        
        
        
+       int [] demo= {2,4,3,1,7,2,55,88,66,66,4,1};
+       int count;
+       for(int i=0;i<demo.length;i++) {
+    	   count=0;
+    	   for(int j=0;j<demo.length;j++) {
+    		   
+    		   if(demo[i]==demo[j]) {
+    			  count++;
+    			  
+    		   }
+    		 
+    	   }
+    	   System.out.println(demo[i] +" appears "+count +" times.");
+       }
+       
        
        
        

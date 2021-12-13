@@ -21,6 +21,7 @@ public class writingtoFile {
 		bw.write("line3");
 		bw.newLine();
 	
+	
 		
 		bw.close();
 		fw.close();

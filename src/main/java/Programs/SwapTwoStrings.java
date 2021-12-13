@@ -13,8 +13,8 @@ public class SwapTwoStrings {
         lname = fname.substring(0, fname.indexOf(lname)); // james
 
 		fname = fname.substring(lname.length());
-        System.out.println(fname);
-		System.out.println(lname);
+        System.out.println(fname);//bond
+		System.out.println(lname);//james
 	}
 
 }

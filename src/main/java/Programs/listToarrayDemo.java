@@ -7,7 +7,7 @@ public class listToarrayDemo {
 
 	public static void main(String[] args) {
 
-		ArrayList<String> al = new ArrayList<String>();
+        ArrayList<String> al = new ArrayList<String>();
 		al.add("amit");
 		al.add("preeti");
 		al.add("neha");
